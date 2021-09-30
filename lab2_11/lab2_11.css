@@ -1,0 +1,12 @@
+div {
+    height: auto;
+    min-height: 265px;
+    margin: 10px;
+    border: 2px solid green;
+    color: black;
+    background-color: aqua;
+}
+
+img {
+    float: right;
+}

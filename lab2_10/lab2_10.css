@@ -1,0 +1,12 @@
+div:first-of-type {
+    float: left;
+    width: 12em;
+    height: 6em;
+    margin: 1.5em;
+    background-color: aquamarine;
+}
+
+div:last-of-type {
+    clear: left;
+    background-color: bisque;
+}

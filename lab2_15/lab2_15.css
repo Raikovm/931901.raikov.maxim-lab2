@@ -1,0 +1,14 @@
+div{
+    display: inline-block;
+    width: 14em;
+    height: 7em;
+    background-color: aquamarine;
+    margin: 1em;
+}
+
+div:last-of-type{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: bisque;
+}

@@ -1,0 +1,48 @@
+div {
+    width: 10em;
+    height: 7em;
+    color: white;
+}
+
+#first {
+    background-color: blue;
+    position: static;
+}
+
+#second {
+    background-color: darkred;
+    position: relative;
+    /* top: 40px; left: 40px; */
+}
+
+#third {
+    background-color: peru;
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+
+#fourth {
+    width: 40em;
+    height: 25em;
+    position: relative;
+    background-color: indianred;
+}
+
+#fifth {
+    position: absolute;
+    width: 20em;
+    height: 12em;
+    left: 20em;
+    top: 8em;
+    background-color: indigo;
+}
+
+#sixth {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: green;
+    width: 7em;
+    height: 7em;
+}

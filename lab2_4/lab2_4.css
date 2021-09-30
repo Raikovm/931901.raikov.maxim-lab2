@@ -1,0 +1,8 @@
+
+div {
+    height: 100%;
+    max-width:600px;
+    background:blue;
+    color:white;
+    margin: auto;
+}

@@ -1,0 +1,38 @@
+#blue{
+
+    background-color: aqua;
+
+}
+@media (min-width: 700px){
+    ul{
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+    #grey{
+        background-color: darkgray;
+        margin-left: 500px;
+    }
+}
+#orange{
+    background-color: bisque;
+    float: left;
+    width: 500px;
+}
+@media (max-width: 700px){
+    ul{
+        margin: 0;
+    }
+    li{
+        display: inline;
+    }
+    #orange{
+        background-color: bisque;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #grey{
+        background-color: darkgray;
+        margin-top: 50px;
+    }
+}
